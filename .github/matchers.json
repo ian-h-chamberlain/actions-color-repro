@@ -1,0 +1,13 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "repro",
+            "pattern": [
+                {
+                    "regexp": "(Hello world)",
+                    "message": 1
+                }
+            ]
+        }
+    ]
+}
