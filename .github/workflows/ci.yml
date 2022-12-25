@@ -13,9 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Use a simple matcher
         run: echo "::add-matcher::${PWD}/.github/matchers.json"
 
-      - name: Run a multi-line script
+      - name: Print some output that should match
         run: printf '\e[31mHello\e[0m world!\n'
